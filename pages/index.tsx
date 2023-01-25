@@ -1,5 +1,7 @@
 import Image from "next/image";
 import data from '../data.json';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function LinkCard({ href, title, image }: {href: string; title: string; image?: string}){
   return (
@@ -37,6 +39,20 @@ export default function Home() {
     {data.links.map((link) => (
       <LinkCard key={link.href} {...link} />
     ))}
+    <div className="flex items-center gap-4 mt-8">
+      {data.socials.map((social) => {
+        if(social.title.toLowerCase().includes('twitter')) {
+          return <a href={social.href} className="hover:scale-105">
+            <TwitterIcon className="fill-gray-500"/>
+          </a>
+        }
+        if(social.title.toLowerCase().includes('github')) {
+          return <a href={social.href} className="hover:scale-105">
+            <GitHubIcon className="fill-gray-500"/>
+          </a>
+        }
+      })}
+    </div>
   </div>
  )
 };
