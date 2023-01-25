@@ -4,19 +4,29 @@
     "links": [
         {
             "title": "Personal Site",
-            "url": "https://instagram/plantasia111",
+            "href": "https://instagram/plantasia111",
             "image": "https://pbs.twimg.com/profile_images/1618054243788652544/n_naHAtD_400x400.jpg"
         },
         {
             "title": "Github",
-            "url": "https://github.com/1tb-flor",
-            "image": "https://pbs.twimg.com/profile_images/1618054243788652544/n_naHAtD_400x400.jpg"
+            "href": "https://github.com/1tb-flor",
+            "image": ""
+        },
+        {
+            "title": "Github",
+            "href": "https://github.com/1tb-flor",
+            "image": ""
+        },
+        {
+            "title": "Github",
+            "href": "https://github.com/1tb-flor",
+            "image": ""
         }
     ],
     "socials": [
         {
             "title": "Twitter",
-            "url": "https://twitter.com/111plantasia111"
+            "href": "https://twitter.com/111plantasia111"
         }
     ]
 }
