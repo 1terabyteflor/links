@@ -4,6 +4,7 @@ import Image from "next/image";
 import data from '../data.json';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Cursor from './components/Cursor';
 
 function LinkCard({ href, title, image }: {href: string; title: string; image?: string}){
   return (
@@ -30,7 +31,9 @@ function LinkCard({ href, title, image }: {href: string; title: string; image?: 
 
 export default function Home() {
  return (
-  <div className="flex flex-col items-center justify-center mx-auto w-full mt-16 px-8">
+  <main>
+    <Cursor/>
+    <div className="flex flex-col items-center justify-center mx-auto w-full mt-16 px-8">
     <Image
       className="rounded-full"
       alt={data.name}
@@ -57,5 +60,6 @@ export default function Home() {
       })}
     </div>
   </div>
+  </main>
  )
 };
