@@ -34,13 +34,13 @@ export default function Home() {
  return (
   <main>
     <Cursor/>
-    <div className="flex flex-col items-center justify-center mx-auto w-full mt-16 px-8">
+    <div className="flex flex-col items-center justify-center mx-auto w-full mt-6 px-8">
     <Image
-      className="rounded-full opacity-70"
+      className="rounded-full opacity-90 w-[50%] p-0"
       alt={data.name}
       src={data.avatar}
       width={200}
-      height={150}/>
+      height={200}/>
     <h1 className="font-bold mt-4 mb-8 text-8xl text-gray-600">{data.name}</h1>
     <p className="font-normal mb-8 text-gray-100 text-4xl text-center max-w-3xl">{data.description}</p>
     {data.links.map((link) => (
