@@ -5,7 +5,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   images: {
-    domains: ['pbs.twimg.com'],
+    domains: ['64.media.tumblr.com'],
   }
 }
 
