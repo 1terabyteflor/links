@@ -1,5 +1,5 @@
 {
-    "name": "florencia",
+    "name": "THE NATURE OF INFINITY",
     "description": "The nature of infinity is this: That everything has its own Vortex, and when once a traveller throw Eternity has pass'd that Vortex, he perceives it roll back behind his path, into a globe itself infolding like a sun",
     "avatar": "https://pbs.twimg.com/profile_images/1618054243788652544/n_naHAtD_400x400.jpg",
     "links": [
@@ -10,7 +10,27 @@
         },
         {
             "title": "WHAT IF",
-            "href": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bbee8ad-d156-424d-a28f-ab26d421af19/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T000908Z&X-Amz-Expires=86400&X-Amz-Signature=04a3f36e65a3e4263fb0956a2ab4f28ef355ea5a0c8d947a5fdded16b338df6b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
+            "href": "https://64.media.tumblr.com/3583ebac112fba53b359cbc0eda71dba/0f61889a897df41f-2b/s1280x1920/179650f1c64454dc4e4a0fcb75906f157f2cc471.jpg",
+            "image": ""
+        },
+        {
+            "title": "Organic Buildups In The Lower Ordovician (Canadian) of Texas and Oklahoma",
+            "href": "https://archive.org/details/organicbuildupsi02toom/page/82/mode/2up",
+            "image": ""
+        },
+        {
+            "title": "Insect Architecture",
+            "href": "https://archive.org/details/b22026885/page/358/mode/2up",
+            "image": ""
+        },
+        {
+            "title": "CYCLOSOPHOROHENEICOSAOSE",
+            "href": "https://www.sciencedirect.com/science/article/abs/pii/0008621583840038",
+            "image": ""
+        },
+        {
+            "title": "This Is Where I Code From",
+            "href": "https://64.media.tumblr.com/1a0973daae398c8e66abfec80289fef0/7f41ce07b6b4ffb2-c0/s2048x3072/53d3d4a5eaa97ee13586ccf284af46022a3bf2f2.jpg",
             "image": ""
         }
 
@@ -23,6 +43,10 @@
         {
             "title": "Github",
             "href": "https://github.com/1tb-flor"
+        },
+        {
+            "title": "Website",
+            "href": "https://desarmate.tumblr.com"
         }
     ]
 }
